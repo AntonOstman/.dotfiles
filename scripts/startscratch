@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+msg=$(i3-msg -t get_tree | grep -i scratchterm)
+
+if [ -z ${msg} ]; then
+    nohup alacritty --class=scratchTerm -e tmux &
+fi
+
