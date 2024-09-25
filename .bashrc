@@ -135,3 +135,4 @@ alias kbd='source ~/.xprofile'
 alias dp3='xrandr --output DP-3 --rate 144 --mode 1920x1080'
 alias python='python3'
 alias xournal++="/home/anton/appimages/xournalpp-1.2.3-x86_64.AppImage"
+export PATH=$PATH:/usr/local/go/bin
