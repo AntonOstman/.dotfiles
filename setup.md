@@ -12,7 +12,7 @@ Press prefix + I (capital i, as in Install) to fetch the plugin.
 ## Requirements
 
 ``` bash
-sudo apt install jq fzf
+sudo apt install jq fzf tmux rofi xclip
 ```
 
 Symlink binaries and neovim
